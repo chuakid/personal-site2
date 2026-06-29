@@ -46,5 +46,9 @@ Steam's prefixes are usually pretty hard to find. Luckily, there exists a tool f
 
 I'm guessing most people launch games through some sort of launcher, like heroic or faugus or lutris. These launchers all have their own ways of launching another app in the same prefix as the game, so look up their manuals.
 
+### OCR
+As an alternative to texthooking, there is OCR. I use [owocr](https://github.com/AuroraWright/owocr). It can watch a region on your screen or your clipboard and use a variety of OCR backends.
 
+On KDE, I set up a shortcut `spectacle -rbcn` to copy a region of my screen into the clipboard silently, and owocr OCRs that from my clipboard which then shows up in Yomitan. It's slightly more manual than texthooking but a lot easier to set up.
 
+I hear on Windows [GameSentenceMiner](https://github.com/bpwhelan/GameSentenceMiner) works better though.
